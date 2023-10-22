@@ -58,6 +58,10 @@ button {
 
 /* Header */
 .header {
+    position: sticky;
+    z-index: 99;
+    background-color: #fff;
+    top: -20px;
     padding-top: 28px;
     font-family: "Public Sans", sans-serif;
     font-weight: 500;
@@ -129,8 +133,11 @@ button {
 
 /* ============ HERO ========= */
 .hero {
-    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Public Sans", sans-serif;
+    height: calc(100vh - 98px);
 }
 
 .hero__inner {
@@ -239,4 +246,15 @@ button {
     position: absolute;
     right: 40px;
     bottom: -163px;
+}
+
+/* ===========CLIENT========== */
+.client {
+    margin-top: 42px;
+}
+
+.client__row {
+    height: 201px;
+    background: #e2eddf;
+    border-radius: 100.5px;
 }
