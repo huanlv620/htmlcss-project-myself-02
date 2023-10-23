@@ -593,7 +593,7 @@ body {
     background: #83a17d;
 }
 
-.project__medida {
+.project__media {
     position: relative;
     margin-top: 65px;
 }
@@ -623,6 +623,19 @@ body {
     background: rgba(0, 0, 0, 0.7);
     cursor: pointer;
 }
+
+.project__media-sun {
+    position: absolute;
+    right: -40px;
+    top: -72px;
+}
+
+.project__media-vector-line {
+    position: absolute;
+    top: -166px;
+    right: -40px;
+}
+
 /*============FEATURE======== */
 .feature {
     margin-top: 40px;
