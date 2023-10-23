@@ -168,6 +168,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 36px;
+    cursor: pointer;
 }
 
 .video-play__circle {
@@ -774,4 +775,113 @@ body {
 /* ==========FOOTER ==== */
 .footer {
     margin-top: 102px;
+    padding-top: 72px;
+    background-color: #143c3c;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #6a8383;
+}
+
+.footer__desc {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 33px;
+    width: fit-content;
+    border-bottom: 1px solid #6a8383;
+}
+
+.footer-form::after {
+    display: block;
+    content: "";
+}
+
+.footer-form__input {
+    padding: 0 10px 0 0;
+    margin-right: 122px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.footer-form__input::placeholder {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #6a8383;
+}
+
+.footer-form__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+    margin-top: 47px;
+}
+
+.footer__social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #265252;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: transparent;
+    transition: 0.25s;
+}
+
+.footer__social-item:hover {
+    background: #a75325;
+    cursor: pointer;
+    border-color: #a75325;
+}
+
+.footer__heading {
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.footer-list__link,
+.footer__copyright-text {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #6a8383;
+}
+
+.footer-list__link:hover {
+    text-decoration: underline;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding: 28px 0 48px;
 }
