@@ -361,6 +361,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .services__heading {
@@ -651,7 +652,6 @@ button {
 
 .process-item__number {
     flex-basis: 13.6%;
-    padding: 20px;
     font-weight: 600;
     font-size: 7.2rem;
     line-height: 52px;
@@ -707,4 +707,10 @@ button {
     width: 450px;
     height: 444px;
     object-fit: cover;
+}
+
+/* ==========PROJECT */
+.project {
+    margin-top: 148px;
+    background-color: #143c3c;
 }
