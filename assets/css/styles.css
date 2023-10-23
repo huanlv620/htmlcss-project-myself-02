@@ -711,6 +711,84 @@ button {
 
 /* ==========PROJECT */
 .project {
-    margin-top: 148px;
+    margin: 148px 0;
+    padding: 116px 0 63px;
     background-color: #143c3c;
+}
+
+.project__top {
+    display: flex;
+    align-items: center;
+    column-gap: 93px;
+}
+
+.project__heading {
+    color: #e7f9f9;
+    width: 457px;
+}
+
+.project__dash {
+    background: #83a17d;
+}
+
+.project-top-left {
+    width: 590px;
+}
+
+.project__desc,
+.project__row-left {
+    width: 572px;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #6a8383;
+}
+
+.project__row {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.project__row-left {
+    width: fit-content;
+    color: #ffffff;
+    margin-right: 26px;
+}
+
+.project__row-left:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.project__medida {
+    position: relative;
+    margin-top: 65px;
+}
+
+.project__img {
+    display: block;
+    width: 1140px;
+    height: 544px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.project__btn-play {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
 }
