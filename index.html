@@ -121,7 +121,7 @@
                                 <a href="#about" class="navbar__link">About</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Blog</a>
+                                <a href="#blog" class="navbar__link">Blog</a>
                             </li>
                             <li class="navbar__item">
                                 <a href="#!" class="navbar__link">Contact</a>
@@ -245,6 +245,7 @@
             <!-- Services -->
             <section class="services">
                 <div class="container">
+                    <!-- Services Top -->
                     <section class="services__top">
                         <p class="section-sub-heading">OUR SERVICES</p>
                         <div class="services__row">
@@ -293,19 +294,20 @@
                         </div>
                     </section>
 
-                    <div class="services__list">
+                    <!-- Services List -->
+                    <div class="block-list">
                         <!-- Item 1 -->
-                        <article class="services-item">
-                            <div class="services-item__image">
+                        <article class="block-item">
+                            <div class="block-item__image">
                                 <img
                                     src="./assets/img/services-branding.webp"
                                     alt="Branding"
-                                    class="services-item__img"
+                                    class="block-item__img"
                                 />
                             </div>
-                            <div class="services-item__body">
-                                <h3 class="services-item__heading">Branding</h3>
-                                <p class="services-item__desc section-desc">
+                            <div class="block-item__body">
+                                <h3 class="block-item__heading">Branding</h3>
+                                <p class="block-item__desc section-desc">
                                     Create beautiful Agency website with
                                     Boluethat converts more visitors than any
                                     website.
@@ -314,19 +316,17 @@
                         </article>
 
                         <!-- Item 2 -->
-                        <article class="services-item">
-                            <div class="services-item__image">
+                        <article class="block-item">
+                            <div class="block-item__image">
                                 <img
                                     src="./assets/img/services-web-design.webp"
                                     alt="Web Design"
-                                    class="services-item__img"
+                                    class="block-item__img"
                                 />
                             </div>
-                            <div class="services-item__body">
-                                <h3 class="services-item__heading">
-                                    Web Design
-                                </h3>
-                                <p class="services-item__desc section-desc">
+                            <div class="block-item__body">
+                                <h3 class="block-item__heading">Web Design</h3>
+                                <p class="block-item__desc section-desc">
                                     Create beautiful Agency website with
                                     Boluethat converts more visitors than any
                                     website.
@@ -335,20 +335,20 @@
                         </article>
 
                         <!-- Item 3 -->
-                        <article class="services-item">
-                            <div class="services-item__image">
+                        <article class="block-item">
+                            <div class="block-item__image">
                                 <img
                                     src="./assets/img/services-graphic-design.webp"
                                     alt="Graphic Design"
-                                    class="services-item__img"
+                                    class="block-item__img"
                                 />
                             </div>
-                            <div class="services-item__image">
-                                <div class="services-item__body">
-                                    <h3 class="services-item__heading">
+                            <div class="block-item__image">
+                                <div class="block-item__body">
+                                    <h3 class="block-item__heading">
                                         Graphic Design
                                     </h3>
-                                    <p class="services-item__desc section-desc">
+                                    <p class="block-item__desc section-desc">
                                         Create beautiful Agency website with
                                         Boluethat converts more visitors than
                                         any website.
@@ -555,7 +555,8 @@
             <!-- OUT Project -->
             <section class="project">
                 <div class="container">
-                    <section class="project__top">
+                    <!-- Project Header -->
+                    <header class="section-header-top">
                         <h2 class="project__heading section-heading">
                             A quick glance of our past projects
                             <span
@@ -563,23 +564,23 @@
                             ></span>
                         </h2>
                         <div class="project-top-left">
-                            <p class="project__desc">
+                            <p class="section-header-top__desc">
                                 Are you strive for the fast project simplicity
                                 and clarity. Great design is born of those two
                                 things.
                             </p>
-                            <div class="project__row">
-                                <span class="project__row-left"
+                            <div class="section-header-top__row">
+                                <span class="section-header-top__row-left"
                                     >Browse all Projects</span
                                 >
                                 <img
                                     src="./assets/img/arrow-right.svg"
-                                    class="project__arrow-right"
+                                    class="section-header-top__arrow-right"
                                     alt=""
                                 />
                             </div>
                         </div>
-                    </section>
+                    </header>
                     <!-- Project Media -->
                     <div class="project__medida">
                         <figure>
@@ -658,6 +659,103 @@
                                 leave you for your competitors.
                             </p>
                         </section>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog -->
+            <section id="blog" class="blogs">
+                <div class="container">
+                    <p class="section-sub-heading">BLOG & ARTICLES</p>
+                    <!-- blogs Header -->
+                    <header class="blogs__header section-header-top">
+                        <h2 class="blogs__heading section-heading">
+                            Take a look at our latest articles and resources
+                            <span
+                                class="blogs__dash section-heading-dash"
+                            ></span>
+                        </h2>
+                        <p
+                            class="blog-header-top__desc section-header-top__desc"
+                        >
+                            The best agency are the ones ideated with clients.
+                            we corporate your ideas with memorable
+                        </p>
+                    </header>
+
+                    <!-- Blogs List -->
+                    <div class="blog-list block-list">
+                        <!-- Item 1 -->
+                        <article class="blog-item block-item">
+                            <div class="blog-item__image block-item__image">
+                                <img
+                                    src="./assets/img/blog-01.avif"
+                                    alt=""
+                                    class="block-item__img"
+                                />
+                            </div>
+                            <!-- body item 1 -->
+                            <div class="blog-item__body block-item__body">
+                                <a href="#!" class="btn blog-btn">STORIES</a>
+                                <h3
+                                    class="blog-item__heading block-item__heading"
+                                >
+                                    What did we learn from nunning over 100
+                                    design sprints in less the year?
+                                </h3>
+                            </div>
+
+                            <p class="blog-item__desc">JANUARY 29, 2022</p>
+                        </article>
+
+                        <!-- Item 2 -->
+                        <article class="blog-item block-item">
+                            <div class="blog-item__image block-item__image">
+                                <img
+                                    src="./assets/img/blog-02.avif"
+                                    alt=""
+                                    class="block-item__img"
+                                />
+                            </div>
+                            <!-- body item -->
+                            <div class="blog-item__body block-item__body">
+                                <a href="#!" class="btn blog-btn">STORIES</a>
+                                <h3
+                                    class="blog-item__heading block-item__heading"
+                                >
+                                    The difference between the UI/UX design a
+                                    simple guide for beginner’s
+                                </h3>
+                            </div>
+
+                            <p class="blog-item__desc">JANUARY 29, 2022</p>
+                        </article>
+
+                        <!-- Item 3 -->
+                        <article class="blog-item block-item">
+                            <div class="blog-item__image block-item__image">
+                                <img
+                                    src="./assets/img/blog-03.avif"
+                                    alt=""
+                                    class="block-item__img"
+                                />
+                            </div>
+                            <!-- body item -->
+                            <div class="block-item__image">
+                                <div class="blog-item__body block-item__body">
+                                    <a href="#!" class="btn blog-btn"
+                                        >STORIES</a
+                                    >
+                                    <h3
+                                        class="blog-item__heading block-item__heading"
+                                    >
+                                        How marketing can help your business
+                                        more than anything.
+                                    </h3>
+                                </div>
+                                <div class="blog__line"></div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </section>
